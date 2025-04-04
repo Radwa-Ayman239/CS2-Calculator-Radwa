@@ -36,7 +36,7 @@ double Calculator::calcTerm() {
 
 double Calculator::calcNumber() {
     char ch = nextChar();
-    while (ch == ' ') ch = nextChar(); // Skip spaces
+    while (ch == ' ') ch = nextChar(); 
 
     if (isdigit(ch)) {
         double num = ch - '0';
@@ -50,5 +50,5 @@ double Calculator::calcNumber() {
         nextChar(); // Consume ')'
         return value;
     }
-    return 0; // Invalid expression
+    return 0; 
 }
