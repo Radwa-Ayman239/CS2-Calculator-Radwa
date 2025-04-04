@@ -1,5 +1,5 @@
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
+#ifndef PARSING_H
+#define PARSING_H
 
 #include <string>
 
@@ -19,4 +19,4 @@ public:
     double evaluate();
 };
 
-#endif // CALCULATOR_H
+#endif // PARSING_H
