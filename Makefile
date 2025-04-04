@@ -129,6 +129,30 @@ excute/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excute.dir/build.make CMakeFiles/excute.dir/build
 .PHONY : excute/fast
 
+Parsing.o: Parsing.cpp.o
+.PHONY : Parsing.o
+
+# target to build an object file
+Parsing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excute.dir/build.make CMakeFiles/excute.dir/Parsing.cpp.o
+.PHONY : Parsing.cpp.o
+
+Parsing.i: Parsing.cpp.i
+.PHONY : Parsing.i
+
+# target to preprocess a source file
+Parsing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excute.dir/build.make CMakeFiles/excute.dir/Parsing.cpp.i
+.PHONY : Parsing.cpp.i
+
+Parsing.s: Parsing.cpp.s
+.PHONY : Parsing.s
+
+# target to generate assembly for a file
+Parsing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excute.dir/build.make CMakeFiles/excute.dir/Parsing.cpp.s
+.PHONY : Parsing.cpp.s
+
 calculator.o: calculator.cpp.o
 .PHONY : calculator.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excute"
+	@echo "... Parsing.o"
+	@echo "... Parsing.i"
+	@echo "... Parsing.s"
 	@echo "... calculator.o"
 	@echo "... calculator.i"
 	@echo "... calculator.s"

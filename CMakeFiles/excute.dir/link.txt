@@ -1,0 +1,1 @@
+/mingw32/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/excute.dir/calculator.cpp.o CMakeFiles/excute.dir/test.cpp.o CMakeFiles/excute.dir/Parsing.cpp.o -o excute.exe -Wl,--out-implib,libexcute.dll.a -Wl,--major-image-version,0,--minor-image-version,0

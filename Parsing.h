@@ -19,4 +19,4 @@ public:
     double evaluate();
 };
 
-#endif // PARSING_H
+#endif 

@@ -1,0 +1,3 @@
+/c/Users/ZBook 15 Power G7/Downloads/CS2-Calculator-Radwa/CMakeFiles/excute.dir
+/c/Users/ZBook 15 Power G7/Downloads/CS2-Calculator-Radwa/CMakeFiles/edit_cache.dir
+/c/Users/ZBook 15 Power G7/Downloads/CS2-Calculator-Radwa/CMakeFiles/rebuild_cache.dir

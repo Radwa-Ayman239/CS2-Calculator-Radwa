@@ -52,3 +52,7 @@ double Calculator::calcNumber() {
     }
     return 0; 
 }
+double Calculator::evaluate(){
+return calcExpression();
+
+}
